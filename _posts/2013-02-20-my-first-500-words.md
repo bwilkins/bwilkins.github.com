@@ -28,9 +28,8 @@ I guess I could start talking about being a conscious consumer, but let's talk a
 
 Carl Johnson's habit was to try and write 500 words before 8am. I'm not such an early riser, so I'm just at "try and write 500 words". I'll let you know later how it goes for me.
 
-So in case I'm hard to follow (and I probably am), what am I trying to say?
-
 ### TL;DR
 
-- Form Good Habits to help increase productivity
-- Produce before you Consume, daily
+- Form Good Habits to help increase Productivity.
+- Produce before you Consume, daily.
+- I probably write too much.
