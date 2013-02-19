@@ -3,7 +3,7 @@ layout: post
 tags: [productivity,habits]
 ---
 
-## My First 500 words
+## [My First 500 words]({{page.url}})
 
 To be perfectly clear, I am not talking about my first 500 words as a person ever. I am not talking about my first 500 words as a blogger - you'd find those over on Posterous (while it's still up).
 No, I'm talking about my first 500 typed words of today. Just today, and just my typed words. And the upper limit is not capped at 500.
