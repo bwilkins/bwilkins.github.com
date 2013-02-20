@@ -21,7 +21,7 @@ Further to all this, I intend to travel further beyond my initial destination - 
 
 Now, actually, I am cheating a *little* bit. All my books have gone to my father's house. I should have sent my guitar with them (he picked the books up), as I'm not really going to play that before I go. I'm not sure what I'm going to do with my DVDs - keep (with parents) or sell? It is a cheat to store things with parents or friends, but if I ever come back, I may want these things.
 
-Being able to pack a bag or two and leave without evidence (other than transations) to show you've been there.. That's an amazing concept to me. I mentioned getting rid of clothes. Of the clothes you do have, if something is torn, you can easily toss and replace, or if you're more inclined you can just as easily mend - although the materials for mending will need to be sourced.
+Being able to pack a bag or two and leave without evidence (other than transactions) to show you've been there.. That's an amazing concept to me. I mentioned getting rid of clothes. Of the clothes you do have, if something is torn, you can easily toss and replace, or if you're more inclined you can just as easily mend - although the materials for mending will need to be sourced.
 
 Having minimalised you possessions, you also make it much easier to both list your possessions, and be enable yourself to say "yes, that's my t-shirt". In fact, I should start making a list of possessions I want/need fo travel.
 
