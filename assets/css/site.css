@@ -22,3 +22,8 @@ a:active  {
   font-weight:      bold;
   color:            gray;
 }
+
+body {
+  margin: 0 auto;
+  max-width: 65em;
+}
