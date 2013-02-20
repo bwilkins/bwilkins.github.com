@@ -35,6 +35,7 @@ Do you have any idea how much easier it is to clean a room when all that's in it
 
 TL;DR
 
+* Form a good habit of considering your next purchase's place in your pack.
 * Get rid of most of your shit.
 * You probably don't need that.
 * Nor that.
