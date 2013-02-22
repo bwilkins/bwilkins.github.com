@@ -29,6 +29,7 @@ body {
   color: #333;
 
   background-image:url('/assets/images/ricepaper.png');
+  background-color: #EDEBE7; /*Should be one of the colours in the bg image*/
 }
 
 p {
