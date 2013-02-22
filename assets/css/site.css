@@ -27,6 +27,8 @@ body {
   margin: 0 auto;
   max-width: 45em;
   color: #333;
+
+  background-image:url('/assets/images/ricepaper.png');
 }
 
 p {
