@@ -34,3 +34,13 @@ body {
 p {
   line-height: 1.5;
 }
+
+@media
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+    body {
+        background-image:url('/assets/images/ricepaper_@2x.png');
+        background-size: 500px 500px;
+    }
+}
+
