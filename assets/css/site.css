@@ -39,7 +39,7 @@ p {
 (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 192dpi) {
     body {
-        background-image:url('/assets/images/ricepaper_2x.png');
+        background-image:url('/assets/images/ricepaper_2X.png');
         background-size: 500px 500px;
     }
 }
