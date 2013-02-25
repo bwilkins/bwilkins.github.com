@@ -5,7 +5,7 @@ tags: [health, motivation]
 
 ## [Getting Out Of Bed]({{page.url}})
 
-Ha. You all think you know how to get out of bed. But I doubt any of you get up and sing, "Good Morning ~~Baltimore!~~Wellington!" I personally don't, as my flatmates wouldn't be overly appreciative. But given that I have started to get up early, and started running shortly after waking, I like to think that I'm doing better than those of you who turn off your alarm and go back to sleep.
+Ha. You all think you know how to get out of bed. But I doubt any of you get up and sing, "Good Morning <del>Baltimore!</del>Wellington!" I personally don't, as my flatmates wouldn't be overly appreciative. But given that I have started to get up early, and started running shortly after waking, I like to think that I'm doing better than those of you who turn off your alarm and go back to sleep.
 
 I woke up this morning at 5:30. I didn't go back to sleep, however I did rest a little longer, but before long I was out of bed, into my stinky running gear, and out the door. 5:30 happens to be a great time to go running in stinky running gear, as no-one else is around to smell you. It's also refreshing in the morning, not to be running in the burning light from the sun, but the dark just before dawn. If you're lucky you might even watch the sun rise... And get to enjoy it. And that's one of the great things I think many people forget about life - it should be enjoyed.
 
