@@ -1,9 +1,8 @@
 ---
 layout: post
 tags: [health, motivation]
+title: Getting Out Of Bed
 ---
-
-## [Getting Out Of Bed]({{page.url}})
 
 Ha. You all think you know how to get out of bed. But I doubt any of you get up and sing, "Good Morning <del>Baltimore!</del>Wellington!" I personally don't, as my flatmates wouldn't be overly appreciative. But given that I have started to get up early, and started running shortly after waking, I like to think that I'm doing better than those of you who turn off your alarm and go back to sleep.
 

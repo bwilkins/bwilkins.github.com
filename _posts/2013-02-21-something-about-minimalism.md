@@ -1,9 +1,8 @@
 ---
 layout: post
 tags: [habits, minimalism]
+title: Something About Minimalism
 ---
-
-## [Something About Minimalism]({{page.url}})
 
 Well look at that, I'm in later than yesterday, yet I'm still in before all of my workmates. Time for some more writing!
 

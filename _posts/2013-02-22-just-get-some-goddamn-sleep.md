@@ -1,9 +1,8 @@
 ---
 layout: post
 tags: [health, sleep]
+title: Just Get Some Goddamn Sleep
 ---
-
-## [Just Get Some Goddamn Sleep]({{page.url}})
 
 Are you finding yourself getting more and more stressed as days go by, with no apparent reason for it? Are you grumpy, finding it hard to get up in the mornings (you know, those slices of time between midnight and midday)? Generally speaking, this is me. Before, oh, 2 days ago. When I started sleeping better - going to bed early, and getting up early.
 
