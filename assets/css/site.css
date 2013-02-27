@@ -27,6 +27,14 @@ body {
   margin: 0 auto;
   max-width: 45em;
   color: #333;
+  background-color: #585858;
+  background: url('/assets/images/low_contrast_linen.png');
+}
+
+#main_content {
+  padding: 40px;
+  background-color: white;
+  box-shadow: 0 0 20px 15px hsla(0, 0%, 0%, 0.3);
 }
 
 p {
