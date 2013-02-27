@@ -1,4 +1,4 @@
-a:link, a.novisited:visited {
+a:link, .novisited:visited {
   /* Applies to all unvisited links */
   text-decoration:  none;
   font-weight:      bold;
@@ -27,21 +27,23 @@ body {
   margin: 0 auto;
   max-width: 45em;
   color: #333;
-
-  background-image:url('/assets/images/ricepaper.png');
-  background-color: #EDEBE7; /*Should be one of the colours in the bg image*/
 }
 
 p {
   line-height: 1.5;
 }
 
-@media
-(-webkit-min-device-pixel-ratio: 2),
-(min-resolution: 192dpi) {
-    body {
-        background-image:url('/assets/images/ricepaper_2X.png');
-        background-size: 500px 500px;
-    }
+article {
+  padding: 1.5em;
+  border-bottom: 1px solid #333;
 }
 
+article footer {
+  font-size: 12px;
+  font-style: italic;
+  padding-top:1em;
+}
+
+/*article:not(:last-child) {
+  border-bottom: 1px solid #333;
+}*/
