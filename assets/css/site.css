@@ -1,9 +1,27 @@
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  body {
+    background-image:url('/assets/images/low_contrast_linen_2X.png');
+    background-size: 500px 500px;
+  }
+}
+
+#header {
+  padding: 2.5em;
+  border-bottom: 1px solid #CCC;
+  background: url('/assets/images/honey_im_subtle.png');
+}
+
+#header a.novisited {
+  color: #999;
+}
+
 a:link, .novisited:visited {
   /* Applies to all unvisited links */
   text-decoration:  none;
   font-weight:      bold;
   color:            black;
 }
+
 a:visited {
   /* Applies to all visited links */
   text-decoration:  none;
@@ -23,6 +41,12 @@ a:active  {
   color:            gray;
 }
 
+h1 {
+  color: #666;
+  text-shadow: 1px -1px #CCC;
+  margin: 0 0;
+}
+
 body {
   margin: 0 auto;
   max-width: 45em;
@@ -32,7 +56,6 @@ body {
 }
 
 #main_content {
-  padding: 40px;
   background-color: white;
   box-shadow: 0 0 20px 15px hsla(0, 0%, 0%, 0.3);
 }
@@ -42,6 +65,8 @@ p {
 }
 
 article {
+  margin-left: 40px;
+  margin-right: 40px;
   padding: 1.5em;
   border-bottom: 1px solid #333;
 }
@@ -50,11 +75,4 @@ article footer {
   font-size: 12px;
   font-style: italic;
   padding-top:1em;
-}
-
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  body {
-    background-image:url('/assets/images/low_contrast_linen_2X.png');
-    background-size: 500px 500px;
-  }
 }
