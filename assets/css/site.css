@@ -1,5 +1,8 @@
 #header {
-  padding: 2.5em;
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
+  padding-left: 40px;
+  padding-right: 40px;
   border-bottom: 1px solid #CCC;
   background: url('/assets/images/honey_im_subtle.png');
 }
@@ -35,6 +38,8 @@ a:active  {
 }
 
 h1 {
+  padding-left: 35px;
+  padding-right: 35px;
   color: #444;
   text-shadow: 1px -1px #CCC;
   margin: 0 0;
@@ -60,7 +65,7 @@ p {
 article {
   margin-left: 40px;
   margin-right: 40px;
-  padding: 1.5em;
+  padding: 35px;
   border-bottom: 1px solid #333;
 }
 
