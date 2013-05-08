@@ -16,8 +16,11 @@ In my spare time, I enjoy listening to and playing music, watching films, spendi
 
 ### Employment
 
+#### Digital Dialogue Melbourne, Australia
+Developer --- May 2012 - current
+
 #### Rabid Technologies Ltd. Wellington City, Wellington
-Software Developer --- May 2012 - current
+Software Developer --- May 2012 - April 2013
 
 - Agile/SCRUM Methodologies
 - Ruby/Rails Development, Support
