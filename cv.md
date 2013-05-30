@@ -30,12 +30,10 @@ Software Developer --- May 2012 - April 2013
 #### Catalyst IT Ltd. Wellington City, Wellington
 Software Developer --- January 2010 - May 2012
 
-- Mahara core development (PHP)
-- Moodle development/customisations (PHP)
-- Some Fez development
+- Mahara core development
+- Moodle development/customisations
 - Python development, mostly web-based
 - Customer Support
-
 
 #### Weta Digital Wellington City, Wellington
 Render and Data Wrangler --- January 2008 - December 2009
@@ -46,27 +44,6 @@ Render and Data Wrangler --- January 2008 - December 2009
 - Attend to tape backup hardware, swapping tapes etc
 - Tools programming, mostly in python
 
-
-#### Dick Smith Electronics Ltd. Hastings, Hawke's Bay
-Salesperson --- March 2007 - October 2007
-
-- Customer Service
-- Worked primarily with computers and electronic devices
-- Worked the Tills
-- Closing up in the evenings
-- Emphasis on product knowledge
-
-
-#### Foster Brooks PaperPlus Ltd. Hastings, Hawke's Bay
-Salesperson --- April 2005 - April 2006
-
-- Customer Service
-- Worked primarily with books
-- Aided in setting up displays
-- Worked the Tills
-- Closing up in the evenings
-
-
 ### Other Experience
 
 - Completed Stripe.com CTF
@@ -74,17 +51,16 @@ Salesperson --- April 2005 - April 2006
 - Speaker NZ PyCon 2010
 - Organised NZ PyCon 2011
 - Was Treasurer for NZPUG Inc. for a year (2011-2012)
+- Worked in retail for a total of 1.5 years
 
 ### Working Technology Experience
 
 - Linux: 5 years
-- Apple Mac OS X: ~1 years
+- Apple Mac OS X: ~2 years
 - Python: ~4 years
 - Git: ~3 years
 - Ruby: ~1 year
-- PHP 5: ~2 years
 - Javascript: ~2 years
 - Objective-C: Less than a year
-- HTML: ~3 years
 - SQL: ~3 years
 
