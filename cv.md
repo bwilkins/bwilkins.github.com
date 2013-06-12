@@ -10,9 +10,9 @@ brett (AT) brett (DOT) geek (DOT) nz
 
 ### Functional Summary
 
-I am 23 years old and am currently working as a Software Developer at Rabid. I am technology savvy, with experience in data management, programming and troubleshooting. My areas of interest include computer graphics, artificial intelligence and networking.
+I am 23 years old and am currently working as a Developer at Digital Dialogue. I am technology savvy, with experience in data management, programming and troubleshooting. My areas of interest include computer graphics, language, artificial intelligence and networking.
 
-In my spare time, I enjoy listening to and playing music, watching films, spending time with friends and dancing. I am a fun-loving person, and have a great rapport with people. I think of myself as a social yet independent team player, and am also productive by myself.
+In my spare time, I enjoy being snobbish about coffee, spending time with friends, climbing and dancing. I am a fun-loving person, and have a great rapport with people. I think of myself as a social yet independent team player, and am also productive by myself.
 
 ### Employment
 
