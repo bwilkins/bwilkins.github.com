@@ -22,7 +22,7 @@ The move itself isn't really that big a deal. I get on a plane, I get off a plan
 
 Luckily for me, I have friends here, and am slowly gaining more. I have my best friend here... albeit in another state, and I have some family here too... also in (yet) another state. I even had a job to arrive into the country to. As far as things go, I was pretty safe upon arrival.
 
-I moved here to be with my girlfriend (and apparently the who flatmate comes with, kind of a "package deal"), so we support each other. She and her best friend (the aforementioned flatmate) moved over here before me, and had to deal with all of the above, except without the safety net of friends and family. This was a true test of their character, and thankfully they've both pulled through, however nutty they've become over the time.
+I moved here to be with my girlfriend (and apparently the flatmate comes with, kind of a "package deal"), so we support each other. She and her best friend (the aforementioned flatmate) moved over here before me, and had to deal with all of the above, except without the safety net of friends and family. This was a true test of their character, and thankfully they've both pulled through, however nutty they've become over the time.
 
 There are somethings that do just become difficult to do in a new place. It is hard to go meet new people. It is hard to go dance in a new place, even decide what style of dance you want to do (What's that? First World Problems? SHUT UP.) It can be hard to find places for meetups, for your job, for going grocery shopping... You have to explore new areas, find places that you like, or that generally aren't dicks and provide good service/quality.
 
