@@ -1,6 +1,6 @@
 ## Day 7
 
-Motorbikes, scooters. whatever you call them, they are lots of them in Vietnam, and Hue is no exception. This morning we each hopped on the back of one of these motorbikes, and headed through the town.
+Motorbikes, scooters. whatever you call them, there are lots of them in Vietnam, and Hue is no exception. This morning we each hopped on the back of one of these motorbikes, and headed through the town.
 
 The tour took us out of the citadel area and into the city, but shortly thereafter we were once again outside of the city, riding around some kind of "urban countryside". Our first real stop was by a market, where I bought myself a nice hat with the word "Vietnam" and a red star embroidered into it, for 40,000 dong (about $2). Right beside the market was an ancient bridge which not only served to help cross the river, but as a resting place and place for worship as well. sitting on this bridge was a fortune teller, whom most of us ignored (for reasons that should be obvious).
 
