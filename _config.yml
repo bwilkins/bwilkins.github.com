@@ -2,7 +2,7 @@
 safe: true
 pygments: true
 lsi: false
-#markdown: redcarpet
+markdown: redcarpet
 baseurl:    /
 url: http://bwilkins.github.com
 source: .
