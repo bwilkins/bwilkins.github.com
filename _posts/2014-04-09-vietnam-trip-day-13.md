@@ -1,6 +1,6 @@
 ## Day 13
 
-Sore head. Probably not as bad as it could have been, but I was definitely hungover. Thankfully, today was a free day, so I didn't have to do too much. After taking a lot of rehydration salts and water, and after a greasy breakfast, I went out to run a few errands. This little ritual is reasonably similar to my usual hangover cure, whereas I would normally have a powerade and fish n chips (and of course a shower!).
+Sore head. Probably not as bad as it could have been, but I was definitely hungover. Thankfully, today was a free day, so I didn't have to do too much. After taking a lot of rehydration salts and water, and after a greasy breakfast, I went out to run a few errands. This little ritual is reasonably similar to my usual hangover cure, whereas I would normally have a powerade and fish'n'chips (and of course a shower!).
 
 After collecting some bathroom supplies, I moved our bags across the hall to our the day room, as we would not be staying another night here. This room was already occupied by two of the Swiss girls, the other one having gone out for a day at the mud baths with my own travelling companions. They left shortly after to run their own errands. Since by this time I was rather hot and sweaty from being outside, I pulled up a chair and turned down the relatively ineffective air conditioning to chill out for a while. 
 

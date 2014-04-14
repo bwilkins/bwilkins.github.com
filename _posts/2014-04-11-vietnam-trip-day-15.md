@@ -20,7 +20,7 @@ We headed back to the mainland, and loaded back into the bus. It was a couple of
 
 So for those of us continuing onwards,  we had a new group meeting to attend, where we met our new guide and the new group. There were none others going on the trip, all of whom had been together on another tour through Vietnam, though they had skipped Nha Trang and flown from Da Nang directly to Ho Chi Minh. 
 
-We only had a short amount of time left before it was time to go for our final dinner with our old group. Tonight we would in style. We went to the top floor of the Palace Saigon Hotel, to the Lemongrass Bar and Restaurant. Here we had our own private room, shelled out for overly expensive drinks, and rather tasty food.
+We only had a short amount of time left before it was time to go for our final dinner with our old group. Tonight we would in style. We went to the top floor of the Palace Saigon Hotel, to the [Lemongrass Restaurant]( http://www.tripadvisor.com/Restaurant_Review-g293925-d1770187-Reviews-Lemongrass-Ho_Chi_Minh_City.html ). Here we had our own private room, shelled out for overly expensive drinks, and rather tasty food.
 
 Here we celebrated our tour guide, who really made the trip special for us. John, the best talker of the group, gave a great speech, sprinkling some lighthearted flak throughout. Afterwards, one of the girls presented our guide with our tip that we'd organised for him. 
 
