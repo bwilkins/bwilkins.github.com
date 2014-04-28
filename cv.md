@@ -10,14 +10,28 @@ brett (AT) brett (DOT) geek (DOT) nz
 
 ### Functional Summary
 
-I am 23 years old and am currently working as a Developer at Digital Dialogue. I am technology savvy, with experience in data management, programming and troubleshooting. My areas of interest include computer graphics, language, artificial intelligence and networking.
+I am 24 years old and am currently working as a Developer at Hooroo. I am technology savvy, with experience in data management, programming and troubleshooting. My areas of interest include computer graphics, language, artificial intelligence and networking.
 
 In my spare time, I enjoy being snobbish about coffee, spending time with friends, climbing and dancing. I am a fun-loving person, and have a great rapport with people. I think of myself as a social yet independent team player, and am also productive by myself.
 
 ### Employment
 
+#### Hooroo Pty Ltd. Melbourne, Australia
+Developer --- July 2013 - current
+
+- Agile/SCRUM Methodologies
+- Ruby/Rails Development
+- Support coverage
+- Test Driven Development
+- AWS Ops-Works
+- EngineYard
+
 #### Digital Dialogue Melbourne, Australia
-Developer --- May 2012 - current
+Developer --- May 2013 - July 2013
+
+- Mobile site frontend development
+- AngularJS
+- Joomla CMS
 
 #### Rabid Technologies Ltd. Wellington City, Wellington
 Software Developer --- May 2012 - April 2013
@@ -55,11 +69,11 @@ Render and Data Wrangler --- January 2008 - December 2009
 
 ### Working Technology Experience
 
-- Linux: 5 years
+- Linux: 6 years
 - Apple Mac OS X: ~2 years
 - Python: ~4 years
 - Git: ~3 years
-- Ruby: ~1 year
+- Ruby: ~2 years
 - Javascript: ~2 years
 - Objective-C: Less than a year
 - SQL: ~3 years
