@@ -62,6 +62,7 @@ Render and Data Wrangler --- January 2008 - December 2009
 
 - Completed Stripe.com CTF
 - Completed Stripe.com CTF 2.0
+- Completed Stripe.com CTF 3.0
 - Speaker NZ PyCon 2010
 - Organised NZ PyCon 2011
 - Was Treasurer for NZPUG Inc. for a year (2011-2012)
