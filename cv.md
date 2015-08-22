@@ -10,9 +10,9 @@ brett (AT) brett (DOT) geek (DOT) nz
 
 ### Functional Summary
 
-I am 24 years old and am currently working as a Developer at Hooroo. I am technology savvy, with experience in data management, programming and troubleshooting. My areas of interest include computer graphics, language, artificial intelligence and networking.
+I am 25 years old and am currently working as a Developer at Hooroo. I am technology savvy, with experience in data management, programming and troubleshooting. My areas of interest include computer graphics, language, artificial intelligence and networking.
 
-In my spare time, I enjoy being snobbish about coffee, spending time with friends, climbing and dancing. I am a fun-loving person, and have a great rapport with people. I think of myself as a social yet independent team player, and am also productive by myself.
+In my spare time, I enjoy drinking coffee, spending time with friends, playing video games and dancing. I am a fun-loving person, and have a great rapport with people. I think of myself as a social yet independent team player, and am also productive by myself.
 
 ### Employment
 
@@ -23,8 +23,9 @@ Developer --- July 2013 - current
 - Ruby/Rails Development
 - Support coverage
 - Test Driven Development
-- AWS Ops-Works
-- EngineYard
+- Event Sourcing and event driven architecture
+- AWS Technologies including SNS, SQS and Kinesis
+- API development
 
 #### Digital Dialogue Melbourne, Australia
 Developer --- May 2013 - July 2013
