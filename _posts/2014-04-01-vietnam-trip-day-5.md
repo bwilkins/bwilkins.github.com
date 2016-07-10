@@ -1,3 +1,9 @@
+---
+layout: post
+title: Vietname Trip - Day 5
+tags: [travel]
+---
+
 ## Day 5
 
 Some people love waking up on boats. When the water is calm, there's no noise outside, it's beautiful. However when there was a party boat up late the night before, there's very much a desire to sleep in... our get payback. Unfortunately we got neither (though that would make a great story!)

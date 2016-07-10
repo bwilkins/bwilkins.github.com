@@ -1,3 +1,9 @@
+---
+layout: post
+title: Vietnam Trip - Day 8
+tags: [travel]
+---
+
 ## Day 8
 
 The next morning was another early morning - on a bus by 8:30! This was not to be our bus to the next destination, however, only to the next bus. The next bus would take us, eventually, to Hoi An.

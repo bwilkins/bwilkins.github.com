@@ -1,3 +1,9 @@
+---
+layout: post
+title: Vietnam Trip - Day 6
+tags: [travel]
+---
+
 ## Day 6
 
 I can't say that I've ever slept on a train before, but for me the experience was somewhat disconcerting. This train would rock side to side, nothing too extreme, a soft rocking. However sometimes the train would also jolt backwards, such as when brakes are applied quickly and they grab. One of my travelling partners almost flew out of her bed from one of these jolts, which I can't imagine would be a fun way to wake up.

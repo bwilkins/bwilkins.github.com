@@ -1,3 +1,9 @@
+---
+layout: post
+title: Vietname Trip - Day 2
+tags: [travel]
+---
+
 ## Day 2
 
 We woke up the next day well rested and far too early. Being the first up, my morning punishment was traipsing up and down the 3 flights of stairs between our room and reception until I could enquire about SIM cards for our mobile phones.

@@ -1,3 +1,9 @@
+---
+layout: post
+title: Vietname Trip - Day 4
+tags: [travel]
+---
+
 ## Day 4
 
 I think this would be one of the parts of our trip that we've looked forward to the most. On this fourth day, we went to the beautiful Ha Long Bay.

@@ -1,3 +1,9 @@
+---
+layout: post
+title: Vietnam Trip - Day 9
+tags: [travel]
+---
+
 ## Day 9
 
 You could be forgiven for thinking we knew it was the weekend - we didn't. Especially not when you're waking up so early as to have showered and feed yourself, all ready to go by 7:30, it to the My Son ruins about an hour or so out of Hoi An. We all piled into a bus and bid farewell to our tour guide for a couple of hours, as he handed us over to another tour guide specifically for this activity.

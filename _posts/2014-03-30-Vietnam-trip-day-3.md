@@ -1,3 +1,9 @@
+---
+layout: post
+title: Vietname Trip - Day 3
+tags: [travel]
+---
+
 ## Day 3
 
 Everything seems to start early here. We were getting up at 6:30 to be ready to leave by 8:30 (including eating breakfast, packing ore day bags etc). Our first destination of the day: The Ho Chi Minh mausoleum and museum.

@@ -1,3 +1,9 @@
+---
+layout: post
+title: Vietnam Trip - Day 1
+tags: [travel]
+---
+
 ## Day 1 - Heading out
 
 Melbourne was cloudy and cool. We walked our way to Southern Cross Station as we usually do. Might as well walk, we thought, as we were about to spend 10 hours travelling in planes (not to mention a while lot of sitting about waiting).

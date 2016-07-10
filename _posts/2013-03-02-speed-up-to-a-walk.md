@@ -1,6 +1,6 @@
 ---
 layout: post
-tags: [health: fitness]
+tags: [health, fitness]
 title: Speeding Up To A Walk?
 ---
 

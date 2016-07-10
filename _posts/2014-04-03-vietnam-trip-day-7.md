@@ -1,3 +1,9 @@
+---
+layout: post
+title: Vietnam Trip - Day 7
+tags: [travel]
+---
+
 ## Day 7
 
 Motorbikes, scooters. whatever you call them, there are lots of them in Vietnam, and Hue is no exception. This morning we each hopped on the back of one of these motorbikes, and headed through the town.
