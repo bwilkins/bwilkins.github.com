@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Vietname Trip - Day 5
+title: Vietnam Trip - Day 5
 tags: [travel]
 ---
 
