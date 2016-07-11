@@ -18,3 +18,4 @@ github_username:  bwilkins
 
 # Build settings
 markdown: kramdown
+post_ext: md
