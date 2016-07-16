@@ -15,7 +15,7 @@ As said in my previous post, I wanted to build a device to show financial goals 
 
 <img src="/images/split_flap_display.jpg" alt="Split Flap Display">
 
-Have you ever seen those large old boards at some airports or other travel ports that make a whole lot of clacking noise? You know, the ones that physically turn over a set of cards until it gets to the right number? Those would be sweet as to get running and have some numbers displayed on... If only they weren't about $100 apiece for a single module! Also thinking about it now, that noise would have been SOOO obnoxious. Split-Flaps: Scratched.
+Have you ever seen those large old boards at some airports or other travel ports that make a whole lot of clacking noise? You know, the ones that physically turn over a set of cards until it gets to the right number? They're called Split Flaps, and are (quite obviously) a mechanical device that can be electrically driven/controlled. Each character you want to display is split in half across two flaps, and a ring of flaps is flipped around until the desired character is displaying at the front. This can be driven by a stepper motor. Those would be sweet as to get running and have some numbers displayed on... If only they weren't about $100 apiece for a single module! There are some resources online about how to build them, but I'm not about to endeavour on a journey to learn the intricacies and mechanics of a split-flap display when mechanics is probably my weakest area of expertise. Also, thinking about it now, that noise would have been SOOO obnoxious. Split-Flaps: Scratched.
 
 <img src="/images/alarm_clock.jpg" alt="Digital Alarm Clock">
 
