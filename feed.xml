@@ -6,9 +6,48 @@
 </description>
     <link>http://bwilkins.github.io/</link>
     <atom:link href="http://bwilkins.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 11 Jul 2016 22:42:41 +1000</pubDate>
-    <lastBuildDate>Mon, 11 Jul 2016 22:42:41 +1000</lastBuildDate>
+    <pubDate>Sat, 16 Jul 2016 14:21:00 +1000</pubDate>
+    <lastBuildDate>Sat, 16 Jul 2016 14:21:00 +1000</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Wouldn&#39;t It Be Awesome If...</title>
+        <description>&lt;h4 id=&quot;aka-research-development-and-scope-creep&quot;&gt;a.k.a Research, Development and Scope-Creep&lt;/h4&gt;
+
+&lt;p&gt;This is part 2 in a series of posts about a little electronics project I started at work. &lt;a href=&quot;/2016/07/11/i-couldnt-do-that-could-i.html&quot;&gt;You can find the first post here.&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;As said in my previous post, I wanted to build a device to show financial goals or the company’s financial milestones. I wanted this to be visible from across the room, so it had to be big… what could I use that would fit the bill?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/split_flap_display.jpg&quot; alt=&quot;Split Flap Display&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Have you ever seen those large old boards at some airports or other travel ports that make a whole lot of clacking noise? You know, the ones that physically turn over a set of cards until it gets to the right number? Those would be sweet as to get running and have some numbers displayed on… If only they weren’t about $100 apiece for a single module! Also thinking about it now, that noise would have been SOOO obnoxious. Split-Flaps: Scratched.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/alarm_clock.jpg&quot; alt=&quot;Digital Alarm Clock&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;So my mind went to alarm clocks - digital alarm clocks specifically. I personally think that the seven-segment displays on alarm clocks give numbers a much more tactility than just being put up on a monitor, and they’re relatively easy to find, so let’s follow this path some more!&lt;/p&gt;
+
+&lt;p&gt;Jaycar, a massive hobbyist/electronics chain here in Australia and NZ, stocks these displays in a few different sizes. I wanted this display to be seen from across the office, so naturally this meant big - how big can you get? Having a nosey around the Melbourne CBD Jaycar store, I grabbed a couple of 2.3” large displays, and a couple of driver ICs for them, all for the purposes of testing and determining if they were going to be the right tool for the job.&lt;/p&gt;
+
+&lt;p&gt;I spent almost a full day trying to figure out the pin-out of the displays I bought! It didn’t help that I was trying to use a 5V source, and after a bit of… “study” (RTFM/RTF Datasheet) I discovered that each of the main elements had 4 LEDs in series to light it up. In a bit of a hail-mary effort to try and get this thing to light up I pulled out a 9V battery and started feeding that in and once I found ground, hey presto, it works!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/it_works.jpg&quot; alt=&quot;It&#39;s working!&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As it turns out, each of the main elements (segments) of the display used 4 LEDs in series (2 for the decimal point). Each of these LEDs was contributing a 1.8V voltage drop, summing up in series to 7.2V, which explains the failure of the 5V source to light anything up! During this period of discovery I think I also burnt out the dot on one of the displays, but that’s ok, it was all in the name of research!&lt;/p&gt;
+
+&lt;p&gt;I’d like to mention at this point that the “driver” IC is actually what’s called a “BCD decoder,” or “Binary-Coded Decimal decoder.” It takes 4 inputs A, B, C and D, each coresponding to the numbers 1, 2, 4 and 8. With any combination of these numbers you can make any decimal number, which the decoder decodes and sends out through it’s 7 outputs, which earch correspond to a segment on the seven-segment display. Some BCD decoders have slightly different input schemes, such as A=1, B=2, C=2 and D=4, which prevents you from giving it input that it can’t display. The decoders I have just blank out the display when the number if is given doesn’t fit within the range of 0-9.&lt;/p&gt;
+
+&lt;p&gt;This idea seemed to have some legs, so I thought I’d move ahead with this and see how it plays out. I ignored all the problems that were surfacing in my head, such as power consumption, how I’d power it, how I’d control it, etc. Those were problems for another day!&lt;/p&gt;
+</description>
+        <pubDate>Sat, 16 Jul 2016 12:34:20 +1000</pubDate>
+        <link>http://bwilkins.github.io/2016/07/16/wouldnt-it-be-awesome-if.html</link>
+        <guid isPermaLink="true">http://bwilkins.github.io/2016/07/16/wouldnt-it-be-awesome-if.html</guid>
+        
+        <category>electronics</category>
+        
+        
+      </item>
     
       <item>
         <title>I Couldn&#39;t Do That! ...Could I?</title>
@@ -333,37 +372,6 @@
         <pubDate>Sat, 05 Apr 2014 00:00:00 +1100</pubDate>
         <link>http://bwilkins.github.io/2014/04/05/vietnam-trip-day-9.html</link>
         <guid isPermaLink="true">http://bwilkins.github.io/2014/04/05/vietnam-trip-day-9.html</guid>
-        
-        <category>travel</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Vietnam Trip - Day 8</title>
-        <description>&lt;h2 id=&quot;day-8&quot;&gt;Day 8&lt;/h2&gt;
-
-&lt;p&gt;The next morning was another early morning - on a bus by 8:30! This was not to be our bus to the next destination, however, only to the next bus. The next bus would take us, eventually, to Hoi An.&lt;/p&gt;
-
-&lt;p&gt;On the way we stopped a a rather tourist friendly bus stop. less like a bus stop to pick people up from, but more like a truck stop but for buses full of tourists, given the amount of souvenirs there. We had a little bit of time here, while the bus driver had breakfast and our tour guide had lunch.&lt;/p&gt;
-
-&lt;p&gt;Back on the road we had a few exciting moments, such as taking a sharp corner on a steep road and finding a well-loaded lorry using our side of the road to make the turn. There were also plenty of scooters making the trip over the hills. We stopped at a dry of shops up on the hills, at which time the rain had become torrential. A few people got off, but soon came back needing a change of clothes.&lt;/p&gt;
-
-&lt;p&gt;After a while we arrived in Da Nang, but we were not stopping here; not today. But while we were pushing through, we did get to see a couple of awesome bridges - one with two heads and the body of a dragon, and the other was something like the Leaning tower of Pisa crossed with a suspension bridge.&lt;/p&gt;
-
-&lt;p&gt;Not long after we left Da Nang were we in Hoi An, our desire destination. We switched to taxis, as there were some places the bus couldn’t take us, namely across the bridge to our accommodations. We all checked in, got comfy in our rooms, and walked into the Old Quarter for lunch.&lt;/p&gt;
-
-&lt;p&gt;We ate at &lt;a href=&quot;http://lanterntown.com&quot;&gt;Lantern Town&lt;/a&gt;, which would also be our meeting place for a couple of activities. If you’re ever in Hoi An and are worried about the safety of the food, this one is at least safe (they use a water filtration system), however the flavours were also on the safe side.&lt;/p&gt;
-
-&lt;p&gt;After lunch we had a tour around the Old Quarter, visiting an old Japanese bridge with an old worshipping altar. Back down the road were a fair few more restaurants, and then we found ourselves in quality tailoring central. Between &lt;a href=&quot;http://yalycouture.com/index.php?lang=en&quot;&gt;Yaly&lt;/a&gt; and &lt;a href=&quot;http://www.tripadvisor.com/Attraction_Review-g298082-d3494128-Reviews-Blue_Eye_Tailor-Hoi_An_Quang_Nam_Province.html&quot;&gt;Blue Eyes&lt;/a&gt; on  Nguyen Duy Hieu St, you could fill your wardrobe with all forms of fine clothing under the sun, and at a very affordable price. I started getting fired for a jacket, and ended up getting a full, head-to-toe  casual ensemble (including the shoes and a belt). All I needed now was a Rolex and a cigar!&lt;/p&gt;
-
-&lt;p&gt;The tailoring took quite a long time, and I had at least two other people’s opinions on colours, although I kept the choice of lining to myself. We were buying from Yaly, though later on we had a look in Blue Eyes, and I was dismayed to find that Blue Eyes had even better material that I would have chosen for my jacket lining. If only I’d had more money, I might have gotten another jacket.&lt;/p&gt;
-
-&lt;p&gt;Soon enough it was dinner time, and we met up with the others outside Lantern Town once more, before going to our dinner destination. My apologies but I can’t remember quite what it was called, but it was right by river, in a corner location.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 04 Apr 2014 00:00:00 +1100</pubDate>
-        <link>http://bwilkins.github.io/2014/04/04/vietnam-trip-day-8.html</link>
-        <guid isPermaLink="true">http://bwilkins.github.io/2014/04/04/vietnam-trip-day-8.html</guid>
         
         <category>travel</category>
         
