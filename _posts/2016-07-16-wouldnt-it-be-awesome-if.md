@@ -19,7 +19,7 @@ Have you ever seen those large old boards at some airports or other travel ports
 
 <img src="/images/alarm_clock.jpg" alt="Digital Alarm Clock">
 
-So my mind went to alarm clocks - digital alarm clocks specifically. I personally think that the seven-segment displays on alarm clocks give numbers a much more tactility than just being put up on a monitor, and they're relatively easy to find, so let's follow this path some more!
+So my mind went to alarm clocks - digital alarm clocks specifically. I personally think that the seven-segment displays on alarm clocks give numbers much more tactility than just being put up on a monitor, and they're relatively easy to find, so let's follow this path some more!
 
 Jaycar, a massive hobbyist/electronics chain here in Australia and NZ, stocks these displays in a few different sizes. I wanted this display to be seen from across the office, so naturally this meant big - how big can you get? Having a nosey around the Melbourne CBD Jaycar store, I grabbed a couple of 2.3" large displays, and a couple of driver ICs for them, all for the purposes of testing and determining if they were going to be the right tool for the job.
 
@@ -29,6 +29,6 @@ I spent almost a full day trying to figure out the pin-out of the displays I bou
 
 As it turns out, each of the main elements (segments) of the display used 4 LEDs in series (2 for the decimal point). Each of these LEDs was contributing a 1.8V voltage drop, summing up in series to 7.2V, which explains the failure of the 5V source to light anything up! During this period of discovery I think I also burnt out the dot on one of the displays, but that's ok, it was all in the name of research!
 
-I'd like to mention at this point that the "driver" IC is actually what's called a "BCD decoder," or "Binary-Coded Decimal decoder." It takes 4 inputs A, B, C and D, each coresponding to the numbers 1, 2, 4 and 8. With any combination of these numbers you can make any decimal number, which the decoder decodes and sends out through it's 7 outputs, which earch correspond to a segment on the seven-segment display. Some BCD decoders have slightly different input schemes, such as A=1, B=2, C=2 and D=4, which prevents you from giving it input that it can't display. The decoders I have just blank out the display when the number if is given doesn't fit within the range of 0-9.
+I'd like to mention at this point that the "driver" IC is actually what's called a "BCD decoder," or "Binary-Coded Decimal decoder." It takes 4 inputs A, B, C and D, each coresponding to the numbers 1, 2, 4 and 8. With any combination of these numbers you can make any decimal number, which the decoder decodes and sends out through it's 7 outputs, each corresponding to a segment on the seven-segment display. Some BCD decoders have slightly different input schemes, such as A=1, B=2, C=2 and D=4, which prevents you from giving it input that it can't display. The decoders I have just blank out the display when the number if is given doesn't fit within the range of 0-9.
 
 This idea seemed to have some legs, so I thought I'd move ahead with this and see how it plays out. I ignored all the problems that were surfacing in my head, such as power consumption, how I'd power it, how I'd control it, etc. Those were problems for another day!
