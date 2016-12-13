@@ -4,14 +4,82 @@
     <title>Shit Brett Thinks</title>
     <description>Stuff I feel is worth writing, whether for the benefit of others, or my future self.
 </description>
-    <link>http://bwilkins.github.io/</link>
-    <atom:link href="http://bwilkins.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 16 Jul 2016 14:21:00 +1000</pubDate>
-    <lastBuildDate>Sat, 16 Jul 2016 14:21:00 +1000</lastBuildDate>
-    <generator>Jekyll v3.1.6</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 13 Dec 2016 22:55:05 +1100</pubDate>
+    <lastBuildDate>Tue, 13 Dec 2016 22:55:05 +1100</lastBuildDate>
+    <generator>Jekyll v3.3.1</generator>
     
       <item>
-        <title>Wouldn&#39;t It Be Awesome If...</title>
+        <title>How Far Can This Go?</title>
+        <description>&lt;h4 id=&quot;actually-pretty-far&quot;&gt;actually, pretty far.&lt;/h4&gt;
+
+&lt;p&gt;This is part 3 in a series of posts about a little electronics project I started at work. &lt;a href=&quot;/2016/07/11/i-couldnt-do-that-could-i.html&quot;&gt;You can find the first post here.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Some time has passed between the writing of the last post and this one. I will endeavour to keep things in an approximately correct chronological order.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;At the end of the last post, I had a project that had legs, but how far can it go?&lt;/p&gt;
+
+&lt;p&gt;I’m not sure when I got the idea, or what I had originally thought of, but I knew I wanted an installation that would be relatively permanent. The previous electronics project I’d worked on (&lt;a href=&quot;http://hooroo.github.io/blog/2015/03/31/arduino-build-light/&quot;&gt;the build light&lt;/a&gt;) was pretty sketchy, pretty much just a small Arduino-compatible, a NeoPixel ring and a proto-board. And to be fair, that was holding up pretty well, in it’s little plastic box on the wall. But this new project was going to something else. I was going to have to step up my game.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/rough_measurements.jpg&quot; alt=&quot;Rough Measurements&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I downloaded EAGLE, a free-to-use, but otherwise proprietary CAD tool for designing Printed Circuit Boards. (This kind of tool might also be called an “EDA”, for “Electronic Design Automation”). I decided I would design a board to house one of the 7-segment displays, the decoder and other supporting circuitry.&lt;/p&gt;
+
+&lt;p&gt;But how was I going to get the data out to multiple displays? Directly driving all those decoder inputs, while being fewer than the segments themselves, was going to get very unwieldly, very quickly. I’d already had this idea in my head that I wanted to be able to chain these things on to each other, and there existed just the thing to do that - the humble Shift Register.&lt;/p&gt;
+
+&lt;p&gt;Luckily I had a shift register lying around from an Arduino Getting Started kit from Sparkfun, so I took advantage of using that to test that this would work… and of course, it did! So now I had these decoders that took 4 bits of data each, and shift registers that could handle 8 bits… What else could I do? Given a 5V signal source, which the shift register effectively was, I could directly drive the decimal point on the individual displays… I could even drive the individual Output Enable pins on the decoders themselves, wouldn’t that be great?&lt;/p&gt;
+
+&lt;p&gt;But then I got stuck on something - the dimensions of the individual display units themselves were pushing the design size out past the lowest price point available from the company I had chosen for printing the boards - and I’d chosen them because they were both affordable and reliable. I’d had suggestions from a friend to build the circuit on a smaller board and connect to the end of the display with a wire harness, but I decided that it would be better to ensure that the displays had the support of a rigid board from end to end. In for a penny in for a pound, why not put two displays on one board? It wasn’t going to change the cost after this latest decision, and so it was!&lt;/p&gt;
+
+&lt;p&gt;Since I was now going with two displays, I threw out the ideas around driving the decimal points at all, and also individually controlling the Output Enable pins. Two sets of four binary-coded-decimal bits fit perfectly into the  eight bits of a single shift register, so that was just going to have to do. After iterating on the design for a while, I sent the board off for printing (exciting!) and a few weeks later, having selected the cheap option to shipping, I received my first ever Printed Circuit Boards that I had designed myself!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/many_like_them_but_these_are_mine.jpg&quot; alt=&quot;My First PCBs!&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;There’s a certain feeling having something like these in front of you for the first time. I remember a giddy feeling, being almost unable to wait to get home and add the components to the board! That time was going to have to wait, because the boards beat the parts to delivery.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/the_parts_arrived.jpg&quot; alt=&quot;The parts have arrived&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After about a week, the parts arrived from element14 and I was able to get going! I was so excited to finally have everything, I had to build one! Finally, around midnight, I had my first display board completely built.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/display_board_back.jpg&quot; alt=&quot;Display board Back&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/display_board_front.jpg&quot; alt=&quot;Display board Front&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;That wasn’t the end of it, though. For some reason, a couple of elements weren’t behaving as expected. It turned out that two elements were switched - lighting up when the other should have been - and I couldn’t just change it in code because I had a hardware decoder sitting in there decoding my (correct!) decimal values. Sadly, I’d gotten something wrong in the schematic diagram - actually, I’d like to blame whoever designed the schematic part in Eagle for the BCD decoder, witness:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/fault_of_the_other.png&quot; alt=&quot;Confusing Eagle part&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As you can see, the F and G pins on U2/CD4511BE (the BCD decoder) are flipped! I wasn’t about to go and get this reprinted - thankfully the fix for this was pretty simple.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/easy_fix.jpg&quot; alt=&quot;Crossed Resistors&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;With that, I set out to complete the rest of the boards.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/building_the_rest.jpg&quot; width=&quot;600&quot; height=&quot;450&quot; alt=&quot;Building the remaining boards&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/all_displays_finished.jpg&quot; width=&quot;600&quot; height=&quot;450&quot; alt=&quot;The finished displays&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I’d like to mention another problem I had to overcome - I wasn’t going to be able to just throw 9V at whatever logic was powering this thing and expect it to come out the other end unscathed. Previously I had been using an Arduino, sending 5V signals to the BCD decoders. In order to get anything to display I had to power the decoders separately with 9V batteries, but doesn’t that sound a bit dangerous for the Arduino, or whatever else might take it’s place in the future?&lt;/p&gt;
+
+&lt;p&gt;Since the signals on this board only travel in one direction, I was pretty comfortable with the idea of using plain ol’ transistors as level shifters. With an arduino (or really, the shift register) driving current into the base of an NPN transistor, the transistor will sink any current source at the collector to ground through the emitter. The only down side here is that a positive input to the base of the transistor results in a negative output at the collector, but this can also be dealt with - when the register sinks the base of the transistor to ground, the collector and emitter stop conducting, and this is effectively “positive” at the collector. The other benefit here is that at no point do we see 9V anywhere near the shift register or Arduino, the transistors are outputing a higher voltage signal from a lower voltage signal source!&lt;/p&gt;
+
+&lt;p&gt;Stay tuned for my next update, where I talk about maybe controlling this chain of displays with something other than an Arduino!&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 13 Dec 2016 20:54:54 +1100</pubDate>
+        <link>http://localhost:4000/2016/12/13/how-far-can-this-go.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/12/13/how-far-can-this-go.html</guid>
+        
+        <category>electronics</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Wouldn't It Be Awesome If...</title>
         <description>&lt;h4 id=&quot;aka-research-development-and-scope-creep&quot;&gt;a.k.a Research, Development and Scope-Creep&lt;/h4&gt;
 
 &lt;p&gt;This is part 2 in a series of posts about a little electronics project I started at work. &lt;a href=&quot;/2016/07/11/i-couldnt-do-that-could-i.html&quot;&gt;You can find the first post here.&lt;/a&gt;&lt;/p&gt;
@@ -22,27 +90,27 @@
 
 &lt;p&gt;&lt;img src=&quot;/images/split_flap_display.jpg&quot; alt=&quot;Split Flap Display&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Have you ever seen those large old boards at some airports or other travel ports that make a whole lot of clacking noise? You know, the ones that physically turn over a set of cards until it gets to the right number? Those would be sweet as to get running and have some numbers displayed on… If only they weren’t about $100 apiece for a single module! Also thinking about it now, that noise would have been SOOO obnoxious. Split-Flaps: Scratched.&lt;/p&gt;
+&lt;p&gt;Have you ever seen those large old boards at some airports or other travel ports that make a whole lot of clacking noise? You know, the ones that physically turn over a set of cards until it gets to the right number? They’re called Split Flaps, and are (quite obviously) a mechanical device that can be electrically driven/controlled. Each character you want to display is split in half across two flaps, and a ring of flaps is flipped around until the desired character is displaying at the front. This can be driven by a stepper motor. Those would be sweet as to get running and have some numbers displayed on… If only they weren’t about $100 apiece for a single module! There are some resources online about how to build them, but I’m not about to endeavour on a journey to learn the intricacies and mechanics of a split-flap display when mechanics is probably my weakest area of expertise. Also, thinking about it now, that noise would have been SOOO obnoxious. Split-Flaps: Scratched.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/images/alarm_clock.jpg&quot; alt=&quot;Digital Alarm Clock&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;So my mind went to alarm clocks - digital alarm clocks specifically. I personally think that the seven-segment displays on alarm clocks give numbers a much more tactility than just being put up on a monitor, and they’re relatively easy to find, so let’s follow this path some more!&lt;/p&gt;
+&lt;p&gt;So my mind went to alarm clocks - digital alarm clocks specifically. I personally think that the seven-segment displays on alarm clocks give numbers much more tactility than just being put up on a monitor, and they’re relatively easy to find, so let’s follow this path some more!&lt;/p&gt;
 
 &lt;p&gt;Jaycar, a massive hobbyist/electronics chain here in Australia and NZ, stocks these displays in a few different sizes. I wanted this display to be seen from across the office, so naturally this meant big - how big can you get? Having a nosey around the Melbourne CBD Jaycar store, I grabbed a couple of 2.3” large displays, and a couple of driver ICs for them, all for the purposes of testing and determining if they were going to be the right tool for the job.&lt;/p&gt;
 
 &lt;p&gt;I spent almost a full day trying to figure out the pin-out of the displays I bought! It didn’t help that I was trying to use a 5V source, and after a bit of… “study” (RTFM/RTF Datasheet) I discovered that each of the main elements had 4 LEDs in series to light it up. In a bit of a hail-mary effort to try and get this thing to light up I pulled out a 9V battery and started feeding that in and once I found ground, hey presto, it works!&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/images/it_works.jpg&quot; alt=&quot;It&#39;s working!&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/images/it_works.jpg&quot; alt=&quot;It's working!&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;As it turns out, each of the main elements (segments) of the display used 4 LEDs in series (2 for the decimal point). Each of these LEDs was contributing a 1.8V voltage drop, summing up in series to 7.2V, which explains the failure of the 5V source to light anything up! During this period of discovery I think I also burnt out the dot on one of the displays, but that’s ok, it was all in the name of research!&lt;/p&gt;
 
-&lt;p&gt;I’d like to mention at this point that the “driver” IC is actually what’s called a “BCD decoder,” or “Binary-Coded Decimal decoder.” It takes 4 inputs A, B, C and D, each coresponding to the numbers 1, 2, 4 and 8. With any combination of these numbers you can make any decimal number, which the decoder decodes and sends out through it’s 7 outputs, which earch correspond to a segment on the seven-segment display. Some BCD decoders have slightly different input schemes, such as A=1, B=2, C=2 and D=4, which prevents you from giving it input that it can’t display. The decoders I have just blank out the display when the number if is given doesn’t fit within the range of 0-9.&lt;/p&gt;
+&lt;p&gt;I’d like to mention at this point that the “driver” IC is actually what’s called a “BCD decoder,” or “Binary-Coded Decimal decoder.” It takes 4 inputs A, B, C and D, each coresponding to the numbers 1, 2, 4 and 8. With any combination of these numbers you can make any decimal number, which the decoder decodes and sends out through it’s 7 outputs, each corresponding to a segment on the seven-segment display. Some BCD decoders have slightly different input schemes, such as A=1, B=2, C=2 and D=4, which prevents you from giving it input that it can’t display. The decoders I have just blank out the display when the number if is given doesn’t fit within the range of 0-9.&lt;/p&gt;
 
 &lt;p&gt;This idea seemed to have some legs, so I thought I’d move ahead with this and see how it plays out. I ignored all the problems that were surfacing in my head, such as power consumption, how I’d power it, how I’d control it, etc. Those were problems for another day!&lt;/p&gt;
 </description>
         <pubDate>Sat, 16 Jul 2016 12:34:20 +1000</pubDate>
-        <link>http://bwilkins.github.io/2016/07/16/wouldnt-it-be-awesome-if.html</link>
-        <guid isPermaLink="true">http://bwilkins.github.io/2016/07/16/wouldnt-it-be-awesome-if.html</guid>
+        <link>http://localhost:4000/2016/07/16/wouldnt-it-be-awesome-if.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/07/16/wouldnt-it-be-awesome-if.html</guid>
         
         <category>electronics</category>
         
@@ -50,7 +118,7 @@
       </item>
     
       <item>
-        <title>I Couldn&#39;t Do That! ...Could I?</title>
+        <title>I Couldn't Do That! ...Could I?</title>
         <description>&lt;p&gt;It all started with a meeting about our goals in the office, and how our performance for the year was to be measured.&lt;/p&gt;
 
 &lt;p&gt;I’m a Software Developer on the delivery team at Hooroo, aka Qantas Hotels and Jetstar Hotels. While being a seperate company, we utilise the HR of Jetstar, and thus have some of their overhead in the company, which includes these KPIs and other stuff that generally nobody likes, but everybody lives with. If there’s a story there, it’s for another post.&lt;/p&gt;
@@ -66,8 +134,8 @@
 &lt;p&gt;Personally though, I think the monitors are boring, perhaps a little too easy to get information up on. Build Lights, on the other hand, that’s pretty cool! How can I apply the build-light hardware foo to showing financial goals? Wouldn’t it be awesome to build a low-tech, multi-digit display to show our financial goals or current performance on? Perhaps using something like the kind of digits you used to see on your alarm clock, back when it was still a box that sat on your bedside table, before it was your phone…? But I couldn’t do that… Could I?&lt;/p&gt;
 </description>
         <pubDate>Mon, 11 Jul 2016 22:37:23 +1000</pubDate>
-        <link>http://bwilkins.github.io/2016/07/11/i-couldnt-do-that-could-i.html</link>
-        <guid isPermaLink="true">http://bwilkins.github.io/2016/07/11/i-couldnt-do-that-could-i.html</guid>
+        <link>http://localhost:4000/2016/07/11/i-couldnt-do-that-could-i.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/07/11/i-couldnt-do-that-could-i.html</guid>
         
         <category>electronics</category>
         
@@ -105,8 +173,8 @@
 &lt;p&gt;After a long day, there was no bandying about considering going to the hotel bar. Straight to bed, and an early night for Brett.&lt;/p&gt;
 </description>
         <pubDate>Sat, 12 Apr 2014 00:00:00 +1000</pubDate>
-        <link>http://bwilkins.github.io/2014/04/12/cambodia-trip-day-1.html</link>
-        <guid isPermaLink="true">http://bwilkins.github.io/2014/04/12/cambodia-trip-day-1.html</guid>
+        <link>http://localhost:4000/2014/04/12/cambodia-trip-day-1.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2014/04/12/cambodia-trip-day-1.html</guid>
         
         <category>travel</category>
         
@@ -146,8 +214,8 @@
 &lt;p&gt;Soon we had finished our drinks, and it was time to say goodbye. We shook hands,  embraced and kissed this we wouldn’t see again, and said “See you in the morning to the others continuing on to Cambodia with us. Unfortunately we weren’t due much rest, as we had yet another early morning ahead…&lt;/p&gt;
 </description>
         <pubDate>Fri, 11 Apr 2014 00:00:00 +1000</pubDate>
-        <link>http://bwilkins.github.io/2014/04/11/vietnam-trip-day-15.html</link>
-        <guid isPermaLink="true">http://bwilkins.github.io/2014/04/11/vietnam-trip-day-15.html</guid>
+        <link>http://localhost:4000/2014/04/11/vietnam-trip-day-15.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2014/04/11/vietnam-trip-day-15.html</guid>
         
         <category>travel</category>
         
@@ -191,8 +259,8 @@
 &lt;p&gt;Unfortunately we were due for another early morning, so now if us were about to hit the bar. We all slunk off to bed to get as much sleep as we could.&lt;/p&gt;
 </description>
         <pubDate>Thu, 10 Apr 2014 00:00:00 +1000</pubDate>
-        <link>http://bwilkins.github.io/2014/04/10/vietnam-trip-day-14.html</link>
-        <guid isPermaLink="true">http://bwilkins.github.io/2014/04/10/vietnam-trip-day-14.html</guid>
+        <link>http://localhost:4000/2014/04/10/vietnam-trip-day-14.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2014/04/10/vietnam-trip-day-14.html</guid>
         
         <category>travel</category>
         
@@ -226,8 +294,8 @@
 &lt;p&gt;Since we had an estimated 4:30am departure time, we headed back for an early night’s sleep. Unfortunately sleep did not come easy, and it did not come well. I was restless, and knew this would not fair overly well for the next day…&lt;/p&gt;
 </description>
         <pubDate>Wed, 09 Apr 2014 00:00:00 +1000</pubDate>
-        <link>http://bwilkins.github.io/2014/04/09/vietnam-trip-day-13.html</link>
-        <guid isPermaLink="true">http://bwilkins.github.io/2014/04/09/vietnam-trip-day-13.html</guid>
+        <link>http://localhost:4000/2014/04/09/vietnam-trip-day-13.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2014/04/09/vietnam-trip-day-13.html</guid>
         
         <category>travel</category>
         
@@ -265,8 +333,8 @@
 &lt;p&gt;One more dance (for the others) and we headed back to the hotel, which was practically just around the corner. I started loading myself with rehydrating salts, in hopes of preventing some part of the massive hangover I was rather likely due.&lt;/p&gt;
 </description>
         <pubDate>Tue, 08 Apr 2014 00:00:00 +1000</pubDate>
-        <link>http://bwilkins.github.io/2014/04/08/vietnam-trip-day-12.html</link>
-        <guid isPermaLink="true">http://bwilkins.github.io/2014/04/08/vietnam-trip-day-12.html</guid>
+        <link>http://localhost:4000/2014/04/08/vietnam-trip-day-12.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2014/04/08/vietnam-trip-day-12.html</guid>
         
         <category>travel</category>
         
@@ -288,8 +356,8 @@
 &lt;p&gt;Bed wasn’t far away, and after a day of not much, sleep was very welcome.&lt;/p&gt;
 </description>
         <pubDate>Mon, 07 Apr 2014 00:00:00 +1000</pubDate>
-        <link>http://bwilkins.github.io/2014/04/07/vietnam-trip-day-11.html</link>
-        <guid isPermaLink="true">http://bwilkins.github.io/2014/04/07/vietnam-trip-day-11.html</guid>
+        <link>http://localhost:4000/2014/04/07/vietnam-trip-day-11.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2014/04/07/vietnam-trip-day-11.html</guid>
         
         <category>travel</category>
         
@@ -331,47 +399,8 @@
 &lt;p&gt;From there it was a long walk home, and an early night for all. Our last night in Hoi An, making the most of the sleeping time available to us!&lt;/p&gt;
 </description>
         <pubDate>Sun, 06 Apr 2014 00:00:00 +1100</pubDate>
-        <link>http://bwilkins.github.io/2014/04/06/vietnam-trip-day-10.html</link>
-        <guid isPermaLink="true">http://bwilkins.github.io/2014/04/06/vietnam-trip-day-10.html</guid>
-        
-        <category>travel</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Vietnam Trip - Day 9</title>
-        <description>&lt;h2 id=&quot;day-9&quot;&gt;Day 9&lt;/h2&gt;
-
-&lt;p&gt;You could be forgiven for thinking we knew it was the weekend - we didn’t. Especially not when you’re waking up so early as to have showered and feed yourself, all ready to go by 7:30, it to the My Son ruins about an hour or so out of Hoi An. We all piled into a bus and bid farewell to our tour guide for a couple of hours, as he handed us over to another tour guide specifically for this activity.&lt;/p&gt;
-
-&lt;p&gt;As it turned out, this tour guide was a wealth of information - not just on the ruins, but having grown up in the area and lived through the “American War”, he had many stories to tell, and we were just getting started.&lt;/p&gt;
-
-&lt;p&gt;The My Son ruins, deep in the hills around Hoi An, are the ruins of what used to be a village of Cham people. The Cham people were Hindu, and thus there were many statues of the Hindu god Shiva around. The ruins here predate the temples in Ankor Wat (we’re going there too!), and have something extra interesting about them: There is no cement or mortar between the bricks, so the result is that the bricks are very close together, and in some cases are indistinguishable from one another. Apparently nobody had been able to discover what was used to stick the bricks together. Reparations being done to the ruins had used some water resistant tree sap to achieve a similar effect.&lt;/p&gt;
-
-&lt;p&gt;Perhaps just as puzzling as the brick laying were the stone pillars - how did the Cham people move such large, heavy blocks of stone to their build site, let alone  erect them for use in for frames, as the lintel, etc?&lt;/p&gt;
-
-&lt;p&gt;Disappointingly, over the years the ruins have been pillaged, with statues missing heads and arms, taken as prizes by thieves. But this is not the reason I call them ruins - most of these buildings were completely during the war, when the Vietcong took refuge there and American gunships laid siege. These ruins, and much more, lend a feeling of disgust towards Americans (if there wasn’t this feeling already).&lt;/p&gt;
-
-&lt;p&gt;On the way back to the hotel, our My Son guide told us all about his own story, living through the war, learning English and working as a translator for the American military, the re-education camps of the communist party, and then final steps until he became a tour guide. His English was excellent (although the Swiss girls may have had trouble understanding him), and I would recommend him to anybody. (Sorry, I can’t find a link to him, but have found a &lt;a href=&quot;http://mukavitz.wordpress.com/2013/06/30/indochine-part-viii-the-cham-ruins-and-mr-van/&quot;&gt;blog post&lt;/a&gt; of someone else who has had the pleasure of meeting this man and going on this tour.)&lt;/p&gt;
-
-&lt;p&gt;Once back at the hotel, I was starving. My partner was sick from the two bus rides, so I left her behind to nap and wandered back into the Old Quarter. On my wander I found a book shop, with a few books I was thinking of purchasing (especially given the prices). Wandering onwards, I saw the Swiss girls a few steps ahead on another road, and ran to catch up with them. With them feeling hungry as well (a couple of them didn’t have time for ballast before getting on the bus) we went for lunch at &lt;a href=&quot;http://www.tripadvisor.com/Restaurant_Review-g298082-d1487249-Reviews-Morning_Glory_Restaurant-Hoi_An_Quang_Nam_Province.html&quot;&gt;Morning Glory&lt;/a&gt;, definitely one of the best places to eat in the Old Quarter. Four spring rolls and a bowl of Cau Lau noodles later and I was fairly well sated. I went with the girls to blue eyes where they had their first fit for their dresses (which were lovely, by the way), then joined one of them who was shopping for joke gifts for the other two (something like they do on Top Gear, but much smaller and gifted after their trip).&lt;/p&gt;
-
-&lt;p&gt;Soon after I was walking home, intent on checking up on my sick partner. Not half a minute before I got there however did I receive a message from her, saying she and our flatmate were at Morning Glory, having a late lunch! About-turn, I head back into town, and find them outside a store looking a souvenirs.&lt;/p&gt;
-
-&lt;p&gt;We were due for our own first fits shortly, so we went into Yaly and found our sales people. As far as my own clothing went, I was fairly happy with the first cut, but a lot of work had yet to be done, and everything needed to be taken in. My compatriots had similar issues with fit, perhaps even worse. It’s quite something to stand around trying on clothes, having five different people looking at the clothes on you, with the occasional butt grab (unintentional, I’m sure).&lt;/p&gt;
-
-&lt;p&gt;On the way back to the hotel, I bought a set of chopsticks that I liked the look of, from a road side stall. These particular chopsticks have a lovely green ornamental end, which may be jade but I’d say would be more likely to be green glass. Back at the hotel my partner was still not feeling well, secondly not well enough to eat, so we left her to sleep some more, and headed back into town for dinner. Tonight we were doing something a little different - a cooking class. We all meet up and had a drink at Lantern Town before venturing further out into Hoi An, where the chosen coming class was being held.&lt;/p&gt;
-
-&lt;p&gt;Intrepid Travel, who we are traveling with, are all about responsible travel, and supporting good local businesses. For this reason we didn’t take one of the many cooking classes inside the Old Quarter, but to a local chef further out. This chef was very pleasant, had good English, and encouraged drinking while cooking.&lt;/p&gt;
-
-&lt;p&gt;We learned how to cook crispy pancakes, fish in banana leaf, green papaya salad and fried vegetable spring rolls. To top it all off, after cooking this delicious meal, we finally got to eat it. As a gift to us, the chef gave us recipes for everything that we cooked, plus some cooking chopsticks. More chopsticks for the collection!&lt;/p&gt;
-
-&lt;p&gt;After dinner we all called it a night, with some wanting to catch a taxi home. Unfortunately taxis were few and far between by this time, so we all ended up walking home together. My partner, I discovered, had slept the entire time, not even getting up to eat, so I tried not to disturb her too much as I got myself into bed, for a slightly longer night’s sleep than the last…&lt;/p&gt;
-</description>
-        <pubDate>Sat, 05 Apr 2014 00:00:00 +1100</pubDate>
-        <link>http://bwilkins.github.io/2014/04/05/vietnam-trip-day-9.html</link>
-        <guid isPermaLink="true">http://bwilkins.github.io/2014/04/05/vietnam-trip-day-9.html</guid>
+        <link>http://localhost:4000/2014/04/06/vietnam-trip-day-10.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2014/04/06/vietnam-trip-day-10.html</guid>
         
         <category>travel</category>
         

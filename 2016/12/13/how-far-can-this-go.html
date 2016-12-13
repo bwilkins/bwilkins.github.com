@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>How Far Can This Go?</title>
+  <meta name="description" content="actually, pretty far.">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/2016/12/13/how-far-can-this-go.html">
+  <link rel="alternate" type="application/rss+xml" title="Shit Brett Thinks" href="http://localhost:4000/feed.xml">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Shit Brett Thinks</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">How Far Can This Go?</h1>
+    <p class="post-meta"><time datetime="2016-12-13T20:54:54+11:00" itemprop="datePublished">Dec 13, 2016</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <h4 id="actually-pretty-far">actually, pretty far.</h4>
+
+<p>This is part 3 in a series of posts about a little electronics project I started at work. <a href="/2016/07/11/i-couldnt-do-that-could-i.html">You can find the first post here.</a></p>
+
+<p>Some time has passed between the writing of the last post and this one. I will endeavour to keep things in an approximately correct chronological order.</p>
+
+<hr />
+
+<p>At the end of the last post, I had a project that had legs, but how far can it go?</p>
+
+<p>I’m not sure when I got the idea, or what I had originally thought of, but I knew I wanted an installation that would be relatively permanent. The previous electronics project I’d worked on (<a href="http://hooroo.github.io/blog/2015/03/31/arduino-build-light/">the build light</a>) was pretty sketchy, pretty much just a small Arduino-compatible, a NeoPixel ring and a proto-board. And to be fair, that was holding up pretty well, in it’s little plastic box on the wall. But this new project was going to something else. I was going to have to step up my game.</p>
+
+<p><img src="/images/rough_measurements.jpg" alt="Rough Measurements" /></p>
+
+<p>I downloaded EAGLE, a free-to-use, but otherwise proprietary CAD tool for designing Printed Circuit Boards. (This kind of tool might also be called an “EDA”, for “Electronic Design Automation”). I decided I would design a board to house one of the 7-segment displays, the decoder and other supporting circuitry.</p>
+
+<p>But how was I going to get the data out to multiple displays? Directly driving all those decoder inputs, while being fewer than the segments themselves, was going to get very unwieldly, very quickly. I’d already had this idea in my head that I wanted to be able to chain these things on to each other, and there existed just the thing to do that - the humble Shift Register.</p>
+
+<p>Luckily I had a shift register lying around from an Arduino Getting Started kit from Sparkfun, so I took advantage of using that to test that this would work… and of course, it did! So now I had these decoders that took 4 bits of data each, and shift registers that could handle 8 bits… What else could I do? Given a 5V signal source, which the shift register effectively was, I could directly drive the decimal point on the individual displays… I could even drive the individual Output Enable pins on the decoders themselves, wouldn’t that be great?</p>
+
+<p>But then I got stuck on something - the dimensions of the individual display units themselves were pushing the design size out past the lowest price point available from the company I had chosen for printing the boards - and I’d chosen them because they were both affordable and reliable. I’d had suggestions from a friend to build the circuit on a smaller board and connect to the end of the display with a wire harness, but I decided that it would be better to ensure that the displays had the support of a rigid board from end to end. In for a penny in for a pound, why not put two displays on one board? It wasn’t going to change the cost after this latest decision, and so it was!</p>
+
+<p>Since I was now going with two displays, I threw out the ideas around driving the decimal points at all, and also individually controlling the Output Enable pins. Two sets of four binary-coded-decimal bits fit perfectly into the  eight bits of a single shift register, so that was just going to have to do. After iterating on the design for a while, I sent the board off for printing (exciting!) and a few weeks later, having selected the cheap option to shipping, I received my first ever Printed Circuit Boards that I had designed myself!</p>
+
+<p><img src="/images/many_like_them_but_these_are_mine.jpg" alt="My First PCBs!" /></p>
+
+<p>There’s a certain feeling having something like these in front of you for the first time. I remember a giddy feeling, being almost unable to wait to get home and add the components to the board! That time was going to have to wait, because the boards beat the parts to delivery.</p>
+
+<p><img src="/images/the_parts_arrived.jpg" alt="The parts have arrived" /></p>
+
+<p>After about a week, the parts arrived from element14 and I was able to get going! I was so excited to finally have everything, I had to build one! Finally, around midnight, I had my first display board completely built.</p>
+
+<p><img src="/images/display_board_back.jpg" alt="Display board Back" /></p>
+
+<p><img src="/images/display_board_front.jpg" alt="Display board Front" /></p>
+
+<p>That wasn’t the end of it, though. For some reason, a couple of elements weren’t behaving as expected. It turned out that two elements were switched - lighting up when the other should have been - and I couldn’t just change it in code because I had a hardware decoder sitting in there decoding my (correct!) decimal values. Sadly, I’d gotten something wrong in the schematic diagram - actually, I’d like to blame whoever designed the schematic part in Eagle for the BCD decoder, witness:</p>
+
+<p><img src="/images/fault_of_the_other.png" alt="Confusing Eagle part" /></p>
+
+<p>As you can see, the F and G pins on U2/CD4511BE (the BCD decoder) are flipped! I wasn’t about to go and get this reprinted - thankfully the fix for this was pretty simple.</p>
+
+<p><img src="/images/easy_fix.jpg" alt="Crossed Resistors" /></p>
+
+<p>With that, I set out to complete the rest of the boards.</p>
+
+<p><img src="/images/building_the_rest.jpg" width="600" height="450" alt="Building the remaining boards" /></p>
+
+<p><img src="/images/all_displays_finished.jpg" width="600" height="450" alt="The finished displays" /></p>
+
+<p>I’d like to mention another problem I had to overcome - I wasn’t going to be able to just throw 9V at whatever logic was powering this thing and expect it to come out the other end unscathed. Previously I had been using an Arduino, sending 5V signals to the BCD decoders. In order to get anything to display I had to power the decoders separately with 9V batteries, but doesn’t that sound a bit dangerous for the Arduino, or whatever else might take it’s place in the future?</p>
+
+<p>Since the signals on this board only travel in one direction, I was pretty comfortable with the idea of using plain ol’ transistors as level shifters. With an arduino (or really, the shift register) driving current into the base of an NPN transistor, the transistor will sink any current source at the collector to ground through the emitter. The only down side here is that a positive input to the base of the transistor results in a negative output at the collector, but this can also be dealt with - when the register sinks the base of the transistor to ground, the collector and emitter stop conducting, and this is effectively “positive” at the collector. The other benefit here is that at no point do we see 9V anywhere near the shift register or Arduino, the transistors are outputing a higher voltage signal from a lower voltage signal source!</p>
+
+<p>Stay tuned for my next update, where I talk about maybe controlling this chain of displays with something other than an Arduino!</p>
+
+
+  </div>
+
+</article>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Shit Brett Thinks</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>Shit Brett Thinks</li>
+          <li><a href="mailto:brett@brett.geek.nz">brett@brett.geek.nz</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/bwilkins"><span class="icon icon--github"><svg viewBox="0 0 16 16"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">bwilkins</span></a>
+
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/bjmaz"><span class="icon icon--twitter"><svg viewBox="0 0 16 16"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+</span><span class="username">bjmaz</span></a>
+
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>Stuff I feel is worth writing, whether for the benefit of others, or my future self.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
