@@ -4,106 +4,11 @@
     <title>Shit Brett Thinks</title>
     <description>Stuff I feel is worth writing, whether for the benefit of others, or my future self.
 </description>
-    <link>http://brett.geek.nz/</link>
-    <atom:link href="http://brett.geek.nz/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 08 May 2019 18:34:29 +1000</pubDate>
-    <lastBuildDate>Wed, 08 May 2019 18:34:29 +1000</lastBuildDate>
-    <generator>Jekyll v3.8.5</generator>
-    
-      <item>
-        <title>How Practices Influence Community</title>
-        <description>&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Hello, I'm Brett; Software Developer by day, Dancer by night.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;I’ve started off presentations with lines like this more times that I care to admit. Talking at conferences, there’s
-almost always an obligatory “Who am I”/”Why am I qualified to talk about this” slide/section. This topic, on culture,
-community, practices and how they all interact is something that I’ve been thinking about for a while. I don’t have a
-degree in psychology or social sciences, I haven’t run any tests, and I’ve got a relatively low sample size. I don’t
-even have well-quantified, numerical data. I’ve spent 5-6 years in various dancing circles/communities (using this last
-word loosely in some cases), and probably about twice as long in various businesses related to software development. I
-have absorbed a large history of experience with &lt;em&gt;living&lt;/em&gt; in different cultures/communities, applying practices (or
-not), and observing affects of practices on culture/communities in general.&lt;/p&gt;
-
-&lt;p&gt;In software development, especially in environments that practice tenets of “Agile” or “Extreme Programming”, we have a
-particular practice called “pairing”. When pairing, you work with another person - often another developer - and work on
-a piece of work together, ideally using the same keyboard/mouse/screen. Pairing enables a kind of instantaneous peer
-review, ensures that if one person doesn’t catch an error then the other one should. It’s also great for sharing
-knowledge, aides problem solving, and generally improves relationships between two people.&lt;/p&gt;
-
-&lt;p&gt;In partner dance, we have the same concept, except it’s just assumed - it’s a partner dance, so you must be dancing with
-a partner, right? It’s just called dancing. It shares much in common with the software development practice; You’re
-working (though dancing seldom feels like work) with someone, and instead of a keyboard, mouse and screen, you’re
-interfacing directly with the other person, typically with some kind of hand/limb-based contact. If you’ve never danced
-with your partner before, you can quickly assess the compatibility of their dancing to yours (not be confused with
-“level” of dancing), and knowledge sharing, problem solving and relationship building all come from occupying the same
-space and communicating (through voice, dance or facial expressions) at the same time.&lt;/p&gt;
-
-&lt;p&gt;This all sounds good. In fact, this all sounds… normal. Expected, in fact?&lt;/p&gt;
-
-&lt;p&gt;Another practice in software development is “pair rotation” - quite simply, frequently changing who you are pairing
-with. In dancing, this is similar to finding a new dance partner on the social dance floor at the start of the next song
-OR - in some software development environments/dance formats - partway during a song. In dance communities for
-“social-first” dance styles, this is super common. We rotate partners frequently during classes, workshops, and many
-people challenge themselves to getting a dance with as many people they can during social time.&lt;/p&gt;
-
-&lt;p&gt;This is also, generally speaking, good. You knowledge share, problem solve, and build relationships (or at least a
-rapport) with many developers/dancers, and this is effectively like a kind of social lubrication; communication builds
-community; they share half a word, after all!&lt;/p&gt;
-
-&lt;p&gt;Where we start to get into murky waters is when competition becomes involved.&lt;/p&gt;
-
-&lt;p&gt;Some styles of partner dance, in competition, uphold the ability to dance well with many different people as being,
-shall we say, “the most important”. They do this my only measuring progress on this alone; sure, you receive accolades
-and prizes for dancing well with just one person (against other strong partnerships), but you will only gain rank 
-(usually received as points) by being in the top X many people to be really good at dancing with many other dancers.&lt;/p&gt;
-
-&lt;p&gt;Meanwhile, other styles of partner dance won’t hold this position at all; You can gain rank for dancing well with just
-one person, as well as gaining rank for dancing well with many. And why not? This ability to dance well with one
-specific other person is venerable in it’s own right; you can receive prizes, why not have this ability reflected by
-change rank as well? As a matter of course, it’s much easier to train with just one person, and as a partnership you can
-theoretically reach higher heights by knowing each others intricacies, building new movements, combos, and a new dance
-language between each other.&lt;/p&gt;
-
-&lt;p&gt;But alas, there is a dark-side when this single-partner focus becomes the emphasis of the dance competition.&lt;/p&gt;
-
-&lt;p&gt;For software development, there isn’t really “competition” in the sense of direct, head-to-head, who-is-better-than-whom
- competing, either between individuals or pairs. Obviously there can be competition at the business level, aiming to get
- a product out to market before a competitor does, and this is when these values are tested. Does a software development
- team, under extra pressure to get a product out to market, stick to the virtues of pair rotation, and even pairing, or
- does it let those practices fall apart, banking on the work of highly-compatible, high-output pairs (or even
- individuals) to get “over the line”?&lt;/p&gt;
-
-&lt;p&gt;Dance communities are quite often open, welcoming groups. Of course, individuals can make or break the experience for
-others, but more generally, social dancing communities want more people to dance with, or for more people to experience
-the wonderful world of dancing. This is especially true of communities that favour the ability to dance with many people
-over the ability of an individual to dance with one specific person.&lt;/p&gt;
-
-&lt;p&gt;Social dance communities that favour and reward partnerships, I have observed, can tend towards being more insular.&lt;/p&gt;
-
-&lt;p&gt;To take a reductive view; why would a dance partnership hone their ability to dance with a plethora of people, when they
-could instead hone their ability to dance well together, and potentially progress faster as a pair? They train together,
-they build their repertoire together. It benefits them less to attend a class and learn techniques in a group, when they
-could work together and learn techniques at a faster pace, because they’re on the same level and are speaking the same
-dance-language dialect as one another.&lt;/p&gt;
-
-&lt;p&gt;When your partnership dancing is rewarded and you gain rank together, this is a no-brainer. A partnership could go
-unseen by others for months, even their local studio/company, and show up at competition and wow everyone, including the
-locals, their “peers”.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 08 May 2019 15:16:00 +1000</pubDate>
-        <link>http://brett.geek.nz/2019/05/08/how-practices-influence-community.html</link>
-        <guid isPermaLink="true">http://brett.geek.nz/2019/05/08/how-practices-influence-community.html</guid>
-        
-        <category>dancing</category>
-        
-        <category>software-development</category>
-        
-        <category>culture</category>
-        
-        <category>community</category>
-        
-        
-      </item>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 14 Feb 2021 11:16:15 +1100</pubDate>
+    <lastBuildDate>Sun, 14 Feb 2021 11:16:15 +1100</lastBuildDate>
+    <generator>Jekyll v4.0.1</generator>
     
       <item>
         <title>How Far Can This Go?</title>
@@ -165,8 +70,8 @@ locals, their “peers”.&lt;/p&gt;
 
 </description>
         <pubDate>Tue, 13 Dec 2016 20:54:54 +1100</pubDate>
-        <link>http://brett.geek.nz/2016/12/13/how-far-can-this-go.html</link>
-        <guid isPermaLink="true">http://brett.geek.nz/2016/12/13/how-far-can-this-go.html</guid>
+        <link>http://localhost:4000/2016/12/13/how-far-can-this-go.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/12/13/how-far-can-this-go.html</guid>
         
         <category>electronics</category>
         
@@ -204,8 +109,8 @@ locals, their “peers”.&lt;/p&gt;
 &lt;p&gt;This idea seemed to have some legs, so I thought I’d move ahead with this and see how it plays out. I ignored all the problems that were surfacing in my head, such as power consumption, how I’d power it, how I’d control it, etc. Those were problems for another day!&lt;/p&gt;
 </description>
         <pubDate>Sat, 16 Jul 2016 12:34:20 +1000</pubDate>
-        <link>http://brett.geek.nz/2016/07/16/wouldnt-it-be-awesome-if.html</link>
-        <guid isPermaLink="true">http://brett.geek.nz/2016/07/16/wouldnt-it-be-awesome-if.html</guid>
+        <link>http://localhost:4000/2016/07/16/wouldnt-it-be-awesome-if.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/07/16/wouldnt-it-be-awesome-if.html</guid>
         
         <category>electronics</category>
         
@@ -229,8 +134,8 @@ locals, their “peers”.&lt;/p&gt;
 &lt;p&gt;Personally though, I think the monitors are boring, perhaps a little too easy to get information up on. Build Lights, on the other hand, that’s pretty cool! How can I apply the build-light hardware foo to showing financial goals? Wouldn’t it be awesome to build a low-tech, multi-digit display to show our financial goals or current performance on? Perhaps using something like the kind of digits you used to see on your alarm clock, back when it was still a box that sat on your bedside table, before it was your phone…? But I couldn’t do that… Could I?&lt;/p&gt;
 </description>
         <pubDate>Mon, 11 Jul 2016 22:37:23 +1000</pubDate>
-        <link>http://brett.geek.nz/2016/07/11/i-couldnt-do-that-could-i.html</link>
-        <guid isPermaLink="true">http://brett.geek.nz/2016/07/11/i-couldnt-do-that-could-i.html</guid>
+        <link>http://localhost:4000/2016/07/11/i-couldnt-do-that-could-i.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/07/11/i-couldnt-do-that-could-i.html</guid>
         
         <category>electronics</category>
         
@@ -268,8 +173,8 @@ locals, their “peers”.&lt;/p&gt;
 &lt;p&gt;After a long day, there was no bandying about considering going to the hotel bar. Straight to bed, and an early night for Brett.&lt;/p&gt;
 </description>
         <pubDate>Sat, 12 Apr 2014 00:00:00 +1000</pubDate>
-        <link>http://brett.geek.nz/2014/04/12/cambodia-trip-day-1.html</link>
-        <guid isPermaLink="true">http://brett.geek.nz/2014/04/12/cambodia-trip-day-1.html</guid>
+        <link>http://localhost:4000/2014/04/12/cambodia-trip-day-1.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2014/04/12/cambodia-trip-day-1.html</guid>
         
         <category>travel</category>
         
@@ -309,8 +214,8 @@ locals, their “peers”.&lt;/p&gt;
 &lt;p&gt;Soon we had finished our drinks, and it was time to say goodbye. We shook hands,  embraced and kissed this we wouldn’t see again, and said “See you in the morning to the others continuing on to Cambodia with us. Unfortunately we weren’t due much rest, as we had yet another early morning ahead…&lt;/p&gt;
 </description>
         <pubDate>Fri, 11 Apr 2014 00:00:00 +1000</pubDate>
-        <link>http://brett.geek.nz/2014/04/11/vietnam-trip-day-15.html</link>
-        <guid isPermaLink="true">http://brett.geek.nz/2014/04/11/vietnam-trip-day-15.html</guid>
+        <link>http://localhost:4000/2014/04/11/vietnam-trip-day-15.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2014/04/11/vietnam-trip-day-15.html</guid>
         
         <category>travel</category>
         
@@ -354,8 +259,8 @@ locals, their “peers”.&lt;/p&gt;
 &lt;p&gt;Unfortunately we were due for another early morning, so now if us were about to hit the bar. We all slunk off to bed to get as much sleep as we could.&lt;/p&gt;
 </description>
         <pubDate>Thu, 10 Apr 2014 00:00:00 +1000</pubDate>
-        <link>http://brett.geek.nz/2014/04/10/vietnam-trip-day-14.html</link>
-        <guid isPermaLink="true">http://brett.geek.nz/2014/04/10/vietnam-trip-day-14.html</guid>
+        <link>http://localhost:4000/2014/04/10/vietnam-trip-day-14.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2014/04/10/vietnam-trip-day-14.html</guid>
         
         <category>travel</category>
         
@@ -389,8 +294,8 @@ locals, their “peers”.&lt;/p&gt;
 &lt;p&gt;Since we had an estimated 4:30am departure time, we headed back for an early night’s sleep. Unfortunately sleep did not come easy, and it did not come well. I was restless, and knew this would not fair overly well for the next day…&lt;/p&gt;
 </description>
         <pubDate>Wed, 09 Apr 2014 00:00:00 +1000</pubDate>
-        <link>http://brett.geek.nz/2014/04/09/vietnam-trip-day-13.html</link>
-        <guid isPermaLink="true">http://brett.geek.nz/2014/04/09/vietnam-trip-day-13.html</guid>
+        <link>http://localhost:4000/2014/04/09/vietnam-trip-day-13.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2014/04/09/vietnam-trip-day-13.html</guid>
         
         <category>travel</category>
         
@@ -428,8 +333,8 @@ locals, their “peers”.&lt;/p&gt;
 &lt;p&gt;One more dance (for the others) and we headed back to the hotel, which was practically just around the corner. I started loading myself with rehydrating salts, in hopes of preventing some part of the massive hangover I was rather likely due.&lt;/p&gt;
 </description>
         <pubDate>Tue, 08 Apr 2014 00:00:00 +1000</pubDate>
-        <link>http://brett.geek.nz/2014/04/08/vietnam-trip-day-12.html</link>
-        <guid isPermaLink="true">http://brett.geek.nz/2014/04/08/vietnam-trip-day-12.html</guid>
+        <link>http://localhost:4000/2014/04/08/vietnam-trip-day-12.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2014/04/08/vietnam-trip-day-12.html</guid>
         
         <category>travel</category>
         
@@ -451,8 +356,51 @@ locals, their “peers”.&lt;/p&gt;
 &lt;p&gt;Bed wasn’t far away, and after a day of not much, sleep was very welcome.&lt;/p&gt;
 </description>
         <pubDate>Mon, 07 Apr 2014 00:00:00 +1000</pubDate>
-        <link>http://brett.geek.nz/2014/04/07/vietnam-trip-day-11.html</link>
-        <guid isPermaLink="true">http://brett.geek.nz/2014/04/07/vietnam-trip-day-11.html</guid>
+        <link>http://localhost:4000/2014/04/07/vietnam-trip-day-11.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2014/04/07/vietnam-trip-day-11.html</guid>
+        
+        <category>travel</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Vietnam Trip - Day 10</title>
+        <description>&lt;h2 id=&quot;day-10&quot;&gt;Day 10&lt;/h2&gt;
+
+&lt;p&gt;We actually got a chance to sleep in today! We only had to be ready to go by 8.30. After another nice breakfast at the villa we were off on our feet again, but not for long. About five minutes down the road we jumped into bicycles - the old school, single gear beachcomber style things,  which are apparently popular in the Hoi An area.&lt;/p&gt;
+
+&lt;p&gt;We rode off into town, but this was only a means to an end,  as fairly soon we were out in the slightly less busy countryside. Now, I say less busy but  we still had scooters passing us in all directions, including on roads you might be forgiven for mistaking as footpaths.&lt;/p&gt;
+
+&lt;p&gt;Along the way we had a close up look and rice in the fields (I for one have never seen rice growing before), also how they grow and water lemongrass and other herbs,  which involved two buckets that they hung on either end of a stick, which went across their shoulders.&lt;/p&gt;
+
+&lt;p&gt;The majority of the bike ride ended with a boat ride. My partner prides herself on what she calls “real-world tetris”, or effectively packing many things into a small space. She has nothing on the Vietnamese people. In this instance,  they packed about 16 bikes into a space  of about a square metre at the back of this boat.&lt;/p&gt;
+
+&lt;p&gt;Going down the river we had some photo opportunities as we passed some fishermen casting out their nets, and various other river life. At the other end we unpacked or bikes. We were back in the old quarter of Hoi An,  and it was almost time for lunch.&lt;/p&gt;
+
+&lt;p&gt;We all headed to &lt;a href=&quot;http://www.tripadvisor.com/Restaurant_Review-g298082-d1122024-Reviews-The_Cargo_Club-Hoi_An_Quang_Nam_Province.html&quot;&gt;Cargo&lt;/a&gt; , another restaurant owned by the same people as Morning Glory. Here we were to order lunch for the following day,  when we would be on a day train to Nha Trang. The group soon dispersed,  leaving just a few of us hungry enough to stay and try the food at Cargo.&lt;/p&gt;
+
+&lt;p&gt;For lunch this time, we ate western food. I’ve got to say, the Vietnamese can make a damn good cheese burger - better than any I’ve had in Australia so far!&lt;/p&gt;
+
+&lt;p&gt;This being our last day in Hoi An, we left the restaurant with every intention of visiting some of the temples around the place. But first we had fittings to do.&lt;/p&gt;
+
+&lt;p&gt;My clothes were practically finished at Yaly. Fit was great, especially the pants (or so I have been told). My travel partners,  having gotten some stuff from Blue Eyes as well, weren’t having so much luck. They would have to come back in another couple of hours. I paid for mine and was informed that it would be delivered to our accommodation, after going through quality assurance checking.&lt;/p&gt;
+
+&lt;p&gt;We headed back in the direction of our lodgings,  but stopped short. The girls decided that it was high-time for a massage,  and that I was in dire need of a pedicure. And a shave. In retrospect,  they were right… On the pedicure at least.&lt;/p&gt;
+
+&lt;p&gt;I didn’t lose all my beard,  all I needed was a trim to keep the shape and tidy everything up. The massage was very relaxing, though I could probably have gone for longer. The pedicure was probably the most necessary thing at the time - my toenails were getting longer than some girls fingernails, and to make matters worse I’d stubbed my big toe earlier in the trip,  which had bent the toenail back and torn it as well, to accommodate the bend. I also had my calluses removed from my feet -  now I’ve got to build them up again for dancing!&lt;/p&gt;
+
+&lt;p&gt;I made my way back the homestay, while the girls went back into town for their fittings. I whiled away the time before dinner by initially cooling off in the air conditioned bedroom, before going outside to enjoy the farmside view from the eating area of the villa. Others from the tour group slowly joined me and we had a chat over drinks until finally the girls got back from their fittings, just in time for dinner.&lt;/p&gt;
+
+&lt;p&gt;Dinner this evening we would be eating local. Not with a family this time, but at a local restaurant. This is not one that would be easy to find just wandering around, as it was well off the beaten track. The good news was that it was full of Vietnamese - it had to be good!&lt;/p&gt;
+
+&lt;p&gt;And good it was. In true Vietnamese fashion they served us 4-5 courses, which hit the spot. The only problem we had was that the fish and chicken dishes came with bones, so we had to be careful with those, but otherwise the flavours were amazing. It makes me wonder if the restaurants in town tone down the flavour of their dishes  for westerners.&lt;/p&gt;
+
+&lt;p&gt;From there it was a long walk home, and an early night for all. Our last night in Hoi An, making the most of the sleeping time available to us!&lt;/p&gt;
+</description>
+        <pubDate>Sun, 06 Apr 2014 00:00:00 +1100</pubDate>
+        <link>http://localhost:4000/2014/04/06/vietnam-trip-day-10.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2014/04/06/vietnam-trip-day-10.html</guid>
         
         <category>travel</category>
         
